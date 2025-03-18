@@ -1,4 +1,23 @@
 #in this given problem,person can step 1/2/3 steps at a time.
+'''
+🪜 Problem Statement: Minimum Cost to Climb Stairs
+  A person wants to climb to the top of a staircase with n steps. They can take 1, 2, or 3 steps at a time. However, there is a fee associated with standing on each step. The goal is to find the minimum cost to reach the top.
+
+Goal:
+  Calculate the minimum fee required to reach step n by choosing the optimal steps.
+
+Input:
+  An integer n representing the number of steps.
+  A list of integers where fees[i] is the cost to stand on step i+1.
+  Output:
+  An integer representing the minimum fee required to reach step n.
+Constraints:
+  To reach step i, you can:
+  Come from step i-1 and pay fees[i-1].
+  Come from step i-2 and pay fees[i-2].
+  Come from step i-3 and pay fees[i-3].
+'''
+
 def stair_to_hev_pay(n,fees):
   min_fee=[0]*(n+1)  # min_fee[0] = 0 e hobe kano ki 0te pouchate kono taka lagbe na but 0te darate only taka lage.
   min_fee[1]=fees[0] # min_fee[1] = fees[0] hobe kano ki 1step e pouchate hole 0 te darate joto taka lage seta e lagbe sudhu. Mane direct 0 thake 1 jump
