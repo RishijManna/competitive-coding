@@ -1,2 +1,2 @@
-# PYTHON-CODING-competitive-coding-
+# CODING-competitive-coding-
 SOLUTIONS  of HACKERRANK + LEETCODE + GFG
