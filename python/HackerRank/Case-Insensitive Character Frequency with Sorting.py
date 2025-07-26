@@ -1,5 +1,5 @@
 
-link -> https://www.hackerrank.com/contests/classroomtech-coding-contest/challenges/case-insensitive-character-frequency-with-sorting/submissions/code/1394914158
+#link -> https://www.hackerrank.com/contests/classroomtech-coding-contest/challenges/case-insensitive-character-frequency-with-sorting/submissions/code/1394914158
 s=input()
 s=s.lower()
 d=[]
