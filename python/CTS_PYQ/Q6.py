@@ -6,15 +6,17 @@ if a<0 or b<0 or c<0:
 elif a==b and b==c:
 	print("None of the department has got the highest placement")
 elif a==b:
-		print("Highest placement")
-		print('CSE')
-		print('ECE')
+	print("Highest placement")
+	print('CSE')
+	print('ECE')
 elif c==b:
-		print("Highest placement")
-		print('ECE')
-		print('MECH')
+	print("Highest placement")
+	print('ECE')
+	print('MECH')
 elif a==c:
-	
+	print("Highest placement")
+	print('ECE')
+	print('MECH')
 else:
 	if a==max(a,b,c):
 		print("Highest placement")
